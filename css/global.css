@@ -24,7 +24,7 @@ body {
     flex-direction: column;
 }
 
-.nav-list{
+.nav-list {
     display: flex;
     flex-direction: row;
     width: 200px;
@@ -132,19 +132,46 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
     border-radius: 5px;
 }
-.sidebar-title{
+
+.sidebar-title {
     font-size: 1.6em;
     color: #333;
     margin-top: 10px;
 }
-.slidebar-text{
+
+.slidebar-text {
     color: #555;
     line-height: 1.5;
 }
-.site-footer{
+
+.site-footer {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px;
     margin-top: 20px;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.author-name,
+.author-email {
+    margin-bottom: 5px;
+}
+
+.email-link {
+    color: #1e90ff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.email-link:hover {
+    color: #fff;
+}
+
+.footer-copy {
+    font-size: 0.9em;
+    color: #ccc;
 }
